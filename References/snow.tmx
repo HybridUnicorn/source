@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="86" height="30" tilewidth="40" tileheight="40" nextobjectid="113">
+ <properties>
+  <property name="anomaly" value="#fdeade"/>
+  <property name="contrast" value="#b97f5b"/>
+  <property name="music" value="mermaid"/>
+  <property name="ocean" value="#382c25"/>
+  <property name="player" value="5"/>
+  <property name="slide" value="true"/>
+  <property name="spot" value="line"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="40" tileheight="40">
+  <image source="tileset.png" width="200" height="240"/>
+ </tileset>
+ <layer name="ground" width="86" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt2dEKgCAMheHw/R+62wisue1M0f8DbzKaHWhYXReAFbVNa81GrhrkqkGudu0xLOdW6dWqWoO1jjW/r/nqXCuGp2bG/bznFGY98577i+Safc1ITaVVclU5LdeMvjJas5Knd2b18pF1ZB3f0Wh/Jcs4sojpPevk6rfKe8FuyFUj8p6Lvr/9K7n6WPavGEd/rUeuMexf9chSg1w1ov85Mr+nATjLDTOJAXc=
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="57" gid="11" x="680" y="320"/>
+  <object id="58" gid="11" x="840" y="320"/>
+  <object id="59" gid="11" x="1040" y="480"/>
+  <object id="60" gid="11" x="1080" y="480"/>
+  <object id="61" gid="11" x="1120" y="480"/>
+  <object id="62" gid="7" x="1360" y="280"/>
+  <object id="63" gid="7" x="2120" y="280"/>
+  <object id="65" gid="11" x="2200" y="760"/>
+  <object id="67" gid="11" x="2200" y="920"/>
+  <object id="68" gid="11" x="2240" y="920"/>
+  <object id="69" gid="19" x="3200" y="480"/>
+  <object id="70" gid="11" x="2360" y="800"/>
+  <object id="71" gid="11" x="1560" y="480"/>
+  <object id="72" gid="11" x="1600" y="480"/>
+  <object id="73" gid="11" x="1640" y="480"/>
+  <object id="74" gid="11" x="1680" y="480"/>
+  <object id="75" gid="11" x="1720" y="480"/>
+  <object id="76" gid="11" x="1760" y="480"/>
+  <object id="77" gid="11" x="1800" y="480"/>
+  <object id="78" gid="11" x="1840" y="480"/>
+  <object id="79" gid="11" x="1880" y="480"/>
+  <object id="80" gid="11" x="1920" y="480"/>
+  <object id="81" gid="11" x="1960" y="480"/>
+  <object id="82" gid="11" x="2000" y="480"/>
+  <object id="83" gid="11" x="2040" y="480"/>
+  <object id="84" gid="11" x="2560" y="520"/>
+  <object id="85" gid="11" x="2600" y="520"/>
+  <object id="86" gid="11" x="2640" y="520"/>
+  <object id="87" gid="11" x="2800" y="520"/>
+  <object id="88" gid="11" x="2840" y="520"/>
+  <object id="89" gid="11" x="2880" y="520"/>
+  <object id="90" gid="11" x="3040" y="520"/>
+  <object id="91" gid="11" x="3080" y="520"/>
+  <object id="92" gid="11" x="3120" y="520"/>
+  <object id="107" gid="5" x="3320" y="1040"/>
+  <object id="108" gid="4" x="3280" y="1040">
+   <properties>
+    <property name="callback" value="finalDialog"/>
+   </properties>
+  </object>
+  <object id="110" gid="6" x="80" y="280"/>
+  <object id="111" gid="21" x="2160" y="440"/>
+  <object id="112" gid="21" x="2280" y="320"/>
+ </objectgroup>
+</map>

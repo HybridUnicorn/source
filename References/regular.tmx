@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="94" height="12" tilewidth="40" tileheight="40" nextobjectid="96">
+ <properties>
+  <property name="anomaly" value="#DD005C"/>
+  <property name="contrast" value="#001C24"/>
+  <property name="music" value="night"/>
+  <property name="ocean" value="#85D3F6"/>
+  <property name="player" value="6"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="40" tileheight="40">
+  <image source="tileset.png" width="200" height="240"/>
+  <tile id="15">
+   <properties>
+    <property name="vertical" value="2"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="dialog" value="There is something around"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="drop" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="ground" width="94" height="12">
+  <data encoding="base64" compression="zlib">
+   eJztk8kKACEMQ0v//6O9F5cqKXHGPPAguCQPNRPiHZwd4FHknQPSu4PP+zPyNKfKj7yPqfy/ld5j7t48k4PxNtz63ldZsll9MuKazJ7MOYj1O11OujMHKi+7J6oHO/NXvd+Sh9WbdX+E6aQBxQgCtw==
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="55" gid="16" x="720" y="280">
+   <properties>
+    <property name="vertical" value="2"/>
+   </properties>
+  </object>
+  <object id="57" gid="18" x="800" y="320">
+   <properties>
+    <property name="dialog" value="There is something around"/>
+   </properties>
+  </object>
+  <object id="59" gid="20" x="800" y="160">
+   <properties>
+    <property name="drop" value="1"/>
+   </properties>
+  </object>
+  <object id="60" gid="7" x="920" y="240"/>
+  <object id="62" gid="7" x="1720" y="280"/>
+  <object id="63" gid="11" x="2000" y="360"/>
+  <object id="64" gid="11" x="1840" y="360"/>
+  <object id="65" gid="11" x="1880" y="360"/>
+  <object id="66" gid="11" x="1920" y="360"/>
+  <object id="67" gid="11" x="1960" y="360"/>
+  <object id="68" gid="16" x="1880" y="320">
+   <properties>
+    <property name="horizontal" value="2"/>
+   </properties>
+  </object>
+  <object id="69" gid="11" x="1480" y="360"/>
+  <object id="70" gid="11" x="1520" y="360"/>
+  <object id="71" gid="16" x="2320" y="400">
+   <properties>
+    <property name="vertical" value="2"/>
+   </properties>
+  </object>
+  <object id="72" gid="16" x="2440" y="360">
+   <properties>
+    <property name="vertical" value="1"/>
+   </properties>
+  </object>
+  <object id="73" gid="7" x="2960" y="280"/>
+  <object id="74" gid="12" x="3200" y="320"/>
+  <object id="75" gid="4" x="3520" y="320">
+   <properties>
+    <property name="callback" value="firstDialog"/>
+   </properties>
+  </object>
+  <object id="76" gid="5" x="3560" y="320"/>
+  <object id="77" gid="8" x="3680" y="280"/>
+  <object id="78" gid="19" x="1920" y="240"/>
+  <object id="79" gid="20" x="2400" y="400">
+   <properties>
+    <property name="drop" value="2"/>
+   </properties>
+  </object>
+  <object id="80" gid="7" x="2160" y="280"/>
+  <object id="81" gid="26" x="360" y="360"/>
+  <object id="82" gid="30" x="600" y="360"/>
+  <object id="83" gid="29" x="960" y="320"/>
+  <object id="84" gid="27" x="1080" y="360"/>
+  <object id="85" gid="28" x="1640" y="320"/>
+  <object id="86" gid="30" x="1840" y="400"/>
+  <object id="87" gid="26" x="2360" y="440"/>
+  <object id="88" gid="27" x="2520" y="360"/>
+  <object id="89" gid="28" x="2240" y="360"/>
+  <object id="90" gid="28" x="2880" y="240"/>
+  <object id="91" gid="26" x="3080" y="360"/>
+  <object id="92" gid="29" x="3320" y="360"/>
+  <object id="93" gid="26" x="1360" y="320"/>
+  <object id="94" gid="29" x="240" y="400"/>
+  <object id="95" gid="6" x="80" y="280"/>
+ </objectgroup>
+</map>

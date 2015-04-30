@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="35" height="22" tilewidth="40" tileheight="40" nextobjectid="74">
+ <properties>
+  <property name="anomaly" value="#9dff3f"/>
+  <property name="contrast" value="#900731"/>
+  <property name="music" value="juicy"/>
+  <property name="ocean" value="#ff1c46"/>
+  <property name="player" value="3"/>
+  <property name="reverse" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="40" tileheight="40">
+  <image source="tileset.png" width="200" height="240"/>
+ </tileset>
+ <layer name="ground" width="35" height="22">
+  <data encoding="base64" compression="zlib">
+   eJztk9EGACAMRbP//+j0EHOlh9XqSIeYiLPbVgoLk0NC3aieUWb9RXt8LaMVduSQ8UcnIfkSHDoUj4ZJfXPObucS6Zc0Vx7K3nlILtn47LXWu9GbTx7E3ThJBbrNAIc=
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="55" gid="6" x="80" y="160"/>
+  <object id="61" gid="14" x="240" y="160">
+   <properties>
+    <property name="reversed" value="true"/>
+   </properties>
+  </object>
+  <object id="62" gid="14" x="320" y="160">
+   <properties>
+    <property name="reversed" value="true"/>
+   </properties>
+  </object>
+  <object id="63" gid="14" x="400" y="160">
+   <properties>
+    <property name="reversed" value="true"/>
+   </properties>
+  </object>
+  <object id="64" gid="14" x="360" y="520">
+   <properties>
+    <property name="reversed" value="true"/>
+   </properties>
+  </object>
+  <object id="65" gid="14" x="400" y="520">
+   <properties>
+    <property name="reversed" value="true"/>
+   </properties>
+  </object>
+  <object id="66" gid="14" x="560" y="760">
+   <properties>
+    <property name="reversed" value="true"/>
+   </properties>
+  </object>
+  <object id="67" gid="19" x="40" y="600"/>
+  <object id="68" gid="20" x="320" y="800">
+   <properties>
+    <property name="drop" value="1"/>
+   </properties>
+  </object>
+  <object id="69" gid="4" x="1200" y="240">
+   <properties>
+    <property name="callback" value="reverseDialog"/>
+   </properties>
+  </object>
+  <object id="70" gid="5" x="1240" y="240">
+   <properties>
+    <property name="mirror" value="true"/>
+   </properties>
+  </object>
+  <object id="71" gid="8" x="1280" y="200"/>
+  <object id="72" gid="7" x="720" y="680"/>
+  <object id="73" gid="23" x="1040" y="760"/>
+ </objectgroup>
+</map>

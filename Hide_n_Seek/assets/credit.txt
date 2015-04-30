@@ -1,0 +1,62 @@
+﻿
+# Hide & Seek
+
+Produced by Axel Rozo--Brézillac
+
+
+_hu_
+Hybrid Unicorn Team
+
+
+
+## Designer
+Axel Rozo--Brézillac
+
+
+## Programming
+Axel Rozo--Brézillac
+
+
+## Graphical Art
+Axel Rozo--Brézillac
+
+
+## Sound Art
+### Youtube Audio library
+Kevin MacLeod - Night Music
+ALBIS - Juicy
+Jingle Punks - Mature Sounds
+
+
+### Newgrounds
+hjcrbass - Bossa nova
+Dijjaner - Mermaid
+
+
+## Tools
+Phaser
+TypeScript
+
+
+
+
+
+Thank you for playing
+
+
+
+
+
+And remember
+
+
+
+
+
+It's okay to be...
+
+
+
+
+
+...different ;)

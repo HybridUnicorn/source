@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="48" height="10" tilewidth="40" tileheight="40" nextobjectid="55">
+ <properties>
+  <property name="anomaly" value="#DD005C"/>
+  <property name="contrast" value="#001C24"/>
+  <property name="ocean" value="#85D3F6"/>
+  <property name="spot" value="full"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="40" tileheight="40">
+  <image source="tileset.png" width="200" height="240"/>
+ </tileset>
+ <layer name="ground" width="48" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYhjagGmgHUAhGHX/wIJR9w8soKX7mbBgSvRSA9PDDlrioe7+wYYBzA8BQQ==
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="23" gid="21" x="80" y="360"/>
+  <object id="24" gid="22" x="160" y="360"/>
+  <object id="25" gid="6" x="1440" y="240"/>
+  <object id="26" gid="23" x="400" y="360"/>
+  <object id="28" gid="8" x="1840" y="200"/>
+  <object id="37" gid="3" x="760" y="280">
+   <properties>
+    <property name="dialog" value="[&quot;Hello&quot;,&quot;world !&quot;]"/>
+   </properties>
+  </object>
+  <object id="38" gid="5" x="1560" y="240"/>
+  <object id="39" gid="3" x="1200" y="280">
+   <properties>
+    <property name="callback" value="blabla1"/>
+   </properties>
+  </object>
+  <object id="40" gid="4" x="1360" y="280">
+   <properties>
+    <property name="callback" value="cutscene"/>
+   </properties>
+  </object>
+  <object id="48" gid="20" x="1680" y="240"/>
+  <object id="49" gid="4" x="1640" y="240">
+   <properties>
+    <property name="callback" value="thankyou"/>
+   </properties>
+  </object>
+  <object id="54" gid="23" x="760" y="360"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="72" height="10" tilewidth="40" tileheight="40" nextobjectid="95">
+ <properties>
+  <property name="anomaly" value="#f7ec55"/>
+  <property name="contrast" value="#00627c"/>
+  <property name="music" value="bossa"/>
+  <property name="ocean" value="#ff9432"/>
+  <property name="player" value="1"/>
+  <property name="spot" value="cast"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="40" tileheight="40">
+  <image source="tileset.png" width="200" height="240"/>
+ </tileset>
+ <layer name="ground" width="72" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjATARGWzqGneKKAcMOHB6PLUtIdUfcSKD0aA7s6h4m5kgCt9DCSgVtogxz/UDgdceQ9dDSE9+MRp4U5y0wWxbqdHOiPWLvR4IddtAKfnAJc=
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="55" gid="6" x="80" y="280"/>
+  <object id="56" gid="7" x="920" y="280"/>
+  <object id="57" gid="7" x="1800" y="320"/>
+  <object id="58" gid="8" x="2800" y="280"/>
+  <object id="60" gid="5" x="2720" y="320"/>
+  <object id="61" gid="4" x="2680" y="320">
+   <properties>
+    <property name="callback" value="withoutDialog"/>
+   </properties>
+  </object>
+  <object id="62" gid="20" x="2160" y="360">
+   <properties>
+    <property name="drop" value="2"/>
+   </properties>
+  </object>
+  <object id="63" gid="20" x="800" y="200">
+   <properties>
+    <property name="drop" value="1"/>
+   </properties>
+  </object>
+  <object id="64" gid="19" x="1400" y="120"/>
+  <object id="65" gid="12" x="280" y="280"/>
+  <object id="66" gid="12" x="440" y="200"/>
+  <object id="67" gid="12" x="680" y="200"/>
+  <object id="68" gid="12" x="680" y="360"/>
+  <object id="69" gid="12" x="1440" y="320"/>
+  <object id="70" gid="12" x="1520" y="200"/>
+  <object id="71" gid="26" x="200" y="320"/>
+  <object id="72" gid="27" x="440" y="240"/>
+  <object id="73" gid="29" x="760" y="240"/>
+  <object id="74" gid="30" x="1040" y="360"/>
+  <object id="75" gid="29" x="1200" y="360"/>
+  <object id="76" gid="26" x="1360" y="360"/>
+  <object id="77" gid="29" x="1480" y="240"/>
+  <object id="79" gid="28" x="1920" y="320"/>
+  <object id="81" gid="30" x="2160" y="400"/>
+  <object id="82" gid="29" x="2280" y="240"/>
+  <object id="83" gid="26" x="2520" y="360"/>
+  <object id="84" gid="28" x="2080" y="120"/>
+  <object id="85" gid="13" x="400" y="200"/>
+  <object id="86" gid="13" x="720" y="200"/>
+  <object id="87" gid="13" x="160" y="280"/>
+  <object id="88" gid="13" x="400" y="280"/>
+  <object id="89" gid="13" x="560" y="360"/>
+  <object id="90" gid="13" x="800" y="360"/>
+  <object id="91" gid="13" x="1440" y="200"/>
+  <object id="92" gid="13" x="1640" y="200"/>
+  <object id="93" gid="13" x="1320" y="320"/>
+  <object id="94" gid="13" x="1520" y="320"/>
+ </objectgroup>
+</map>

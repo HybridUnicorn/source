@@ -1,0 +1,40 @@
+{
+	"list": [
+		{
+			"name": "regular",
+			"color": "#85d3f6",
+			"gray": "#999999",
+			"drops": ""
+		},
+		{
+			"name": "snow",
+			"color": "#382c25",
+			"gray": "#2e2e2e",
+			"drops": "123"
+		},
+		{
+			"name": "wave",
+			"color": "#aae674",
+			"gray": "#bbbbbb",
+			"drops": "1"
+		},
+		{
+			"name": "fall",
+			"color": "#f9feb9",
+			"gray": "#e7e7e7",
+			"drops": "3"
+		},
+		{
+			"name": "reverse",
+			"color": "#ff1c46",
+			"gray": "#5e5e5e",
+			"drops": "13"
+		},
+		{
+			"name": "without",
+			"color": "#ff9432",
+			"gray": "#8c8c8c",
+			"drops": "2"
+		}
+	]
+}

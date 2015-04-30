@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="12" height="8" tilewidth="40" tileheight="40" nextobjectid="7">
+ <properties>
+  <property name="anomaly" value="#00ff00"/>
+  <property name="contrast" value="#ffffff"/>
+  <property name="ocean" value="#ff0000"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="40" tileheight="40">
+  <image source="tileset.png" width="160" height="120"/>
+ </tileset>
+ <layer name="ground" width="12" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBjagIlEtZSqx8dnIgMDAArIACk=
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="3" gid="5" x="80" y="240"/>
+  <object id="4" gid="9" x="200" y="280"/>
+  <object id="5" gid="9" x="240" y="280"/>
+  <object id="6" gid="9" x="280" y="280"/>
+ </objectgroup>
+</map>
